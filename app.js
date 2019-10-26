@@ -1,10 +1,10 @@
 'use strict';
 
-const CANVAS     = document.getElementById('canvas'),
-      CTX        = CANVAS.getContext('2d'),
-      WIDTH      = CANVAS.width  = 400,
-      HEIGHT     = CANVAS.height = 400,
-      CELL_SIZE  = 10,
+const CANVAS      = document.getElementById('canvas'),
+      CTX         = CANVAS.getContext('2d'),
+      WIDTH       = CANVAS.width  = 400,
+      HEIGHT      = CANVAS.height = 400,
+      CELL_SIZE   = 10,
       FINAL_SCORE = 3;
 
 let intervalId;
